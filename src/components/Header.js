@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from './components/Navbar';
 
 
 const styles = {
@@ -11,6 +12,11 @@ function Header() {
   return (
     <header style={styles.headerStyle} className="header">
       <h1 style={styles.titleStyle}>Emily Bernard</h1>
+      <ul>
+        <Navbar>
+          
+        </Navbar>
+      </ul>
     </header>
   );
 }
