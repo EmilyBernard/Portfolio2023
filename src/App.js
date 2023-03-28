@@ -1,5 +1,9 @@
-// import './App.css';
-// import BucketList from './components/BucketList';
+import './App.css';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Project from './components/Project';
+import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 // function App() {
 //   return (
@@ -8,5 +12,15 @@
 //     </div>
 //   );
 // }
+const App = () => {
+  return (
+    <div className = "">
+        <Header/>
+          <Nav/>
+          <Project/>
+        <Footer/>
+    </div>
+    )
+}
 
 export default App;
